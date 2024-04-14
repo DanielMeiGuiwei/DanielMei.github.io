@@ -1,0 +1,33 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - My New Hugo Site</title>
+        <link>https:DanielMei.github.ioposts/</link>
+        <description>All Posts | My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>meiguiwei@hotmail.com (DanielMei)</managingEditor>
+            <webMaster>meiguiwei@hotmail.com (DanielMei)</webMaster><lastBuildDate>Fri, 12 Apr 2024 21:37:46 &#43;0800</lastBuildDate><atom:link href="https:DanielMei.github.ioposts/" rel="self" type="application/rss+xml" /><item>
+    <title>How to Build a Blog</title>
+    <link>https:DanielMei.github.iohow-to-build-a-blog/</link>
+    <pubDate>Fri, 12 Apr 2024 21:37:46 &#43;0800</pubDate>
+    <author>DanielMei</author>
+    <guid>https:DanielMei.github.iohow-to-build-a-blog/</guid>
+    <description><![CDATA[How to Build a Blog - Test run command in below dir
+1 2 cd /Users/danielmei/Blog/mysite hugo new posts/first_post.md 1 2 danielmei@Daniels-MacBook-Pro mysite % hugo new posts/first_post.md Content &#34;/Users/danielmei/Blog/mysite/content/posts/first_post.md&#34; created pictures References 1.增添博客封面 可以将博客封面存放在static/img下,然后引用
+cover:
+image: &quot;https://eddyblog.cn/img/hugo.png&quot; #图片路径：static/img/hugo.png caption: &quot;&quot; #图片底部描述 alt: &quot;&quot; relative: false 盖：
+图片：“https://eddyblog.cn/img/hugo.png”#图片路径：Static/IMG/hugo.png
+标题：“” #图片底部描述
+alt： “”
+相对：假 原本存放在static/img下的hugo.png经过hugo -F生成public目录后会存放在public/img下，所以这里的链接是https://eddyblog.cn/img/hugo.png
+原理分析：
+域名解析： 域名 http://eddyblog.cn 需要通过 DNS 解析将其映射到 GitHub Pages 的服务器 IP 地址。这样浏览器才能正确找到要请求的服务器。 GitHub Pages 服务器： 当浏览器发出请求时，DNS 解析后的请求会被路由到 GitHub Pages 的服务器。 资源请求： GitHub Pages 服务器接收到请求后，会寻找请求的资源。在这种情况下，服务器会尝试寻找 /img/hugo.]]></description>
+</item>
+<item>
+    <title>First_post</title>
+    <link>https:DanielMei.github.iofirst_post/</link>
+    <pubDate>Fri, 12 Apr 2024 17:35:59 &#43;0800</pubDate>
+    <author>Daniel Mei</author>
+    <guid>https:DanielMei.github.iofirst_post/</guid>
+    <description><![CDATA[My First Post Happy Weekend Apr 12, 2024 17:37:11 ]]></description>
+</item>
+</channel>
+</rss>
